@@ -19,10 +19,10 @@ class LinkedList
   end
 
   def get_value_at(index)
-    #this one still needs work...can't figure out how
+    #this one still needs work(?)...can't figure out how
     #to traverse down the list given a specific index value
     if @head
-      node.head
+      node.data
     else
       index.times do
         node.link
